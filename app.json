@@ -1,7 +1,7 @@
 {
-    "name": "𓌹𝚂𝙾𝚄𝚁𝙲𝙴 𝙶𝙾𝙳𝚉𝙸𝙻𝙻𝙰𓌺 ",
+    "name": "𝘀𝗼𝘂𝗿𝗰𝗲 𝗰𝗼𝘂𝗱𝗿𝗮",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/8c6b3160f70e64270e880.jpg",
+    "logo": "https://telegra.ph/file/d313f089ede761bbad70a.jpg",
     "keywords": [
     "python3",
     "telegram",
