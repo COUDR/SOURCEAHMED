@@ -16,26 +16,26 @@ async def zdatsr(client: Client, message: Message):
     name = usr.first_name
     usrnam = usr.username
     await message.reply_photo(
-        photo=f"https://graph.org/file/8c6b3160f70e64270e880.jpg",
-        caption=f"""<b>» مرحبـاً بك عـزيـزي </b> {message.from_user.mention} .\n\n<b>» استخـدم الازرار بالاسفـل 𝄞\n» لـ تصفـح اوامـر الميـوزك 🥁</b>""",
+        photo=f"https://telegra.ph/file/d313f089ede761bbad70a.jpg",
+        caption=f"""<b>[ مرحبـاً بك عـزيـزي </b> {message.from_user.mention} .\n\n<b>[ استخـدم الازرار بالاسفـل 𝄞\n[ لـ تصفـح اوامـر الميـوزك 🥁</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "• اوامــر التشغيــل •", callback_data="zzzll"),
+                        "‹ اوامــر التشغيــل ›", callback_data="zzzll"),
                 ],[
                     InlineKeyboardButton(
-                        "• اوامـر القنـاة •", callback_data="zzzch"),
+                        "‹ اوامـر القنـاة ›", callback_data="zzzch"),
                     InlineKeyboardButton(
-                        "• اوامـر الادمـن •", callback_data="zzzad"),
+                        "‹ اوامـر الادمـن ›", callback_data="zzzad"),
                 ],[
                     InlineKeyboardButton(
-                        "• اوامــر المطــور •", callback_data="zzzdv"),
+                        "‹ اوامــر المطــور ›", callback_data="zzzdv"),
                 ],[
                     InlineKeyboardButton(name, url=f"https://t.me/{usrnam}"),
                 ],[
                     InlineKeyboardButton(
-                        "•✯ 「𝙰𝙵𝚁𝙾𝚃𝙾𝙾 𝙼𝚞𝚂𝙸𝙲」 ✯•", url="https://t.me/UI_VM"),
+                        "‹ 𝘀𝗼𝘂𝗿𝗰𝗲✘𝗰𝗼𝘂𝗱𝗿𝗮 ›", url="https://t.me/WU_SD"),
                 ],
             ]
         ),
@@ -60,7 +60,7 @@ reply_markup=InlineKeyboardMarkup(
             [            
               InlineKeyboardButton (name, url=f"https://t.me/{usrnam}"),
             ],[
-              InlineKeyboardButton("•✯ 𓌹𝚂𝙾𝚄𝚁𝙲𝙴 𝙶𝙾𝙳𝚉𝙸𝙻𝙻𝙰𓌺✯•", url="https://t.me/El_Godzy"),
+              InlineKeyboardButton("‹ 𝘀𝗼𝘂𝗿𝗰𝗲✘𝗰𝗼𝘂𝗱𝗿𝗮 ›", url="https://t.me/WU_SD"),
             ],
           ]
        )                 
