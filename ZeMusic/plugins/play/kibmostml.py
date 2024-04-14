@@ -26,7 +26,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
@@ -42,7 +42,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
@@ -58,7 +58,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
@@ -74,7 +74,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
@@ -89,7 +89,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
@@ -104,7 +104,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
@@ -119,7 +119,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
@@ -134,7 +134,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
@@ -149,7 +149,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
@@ -164,7 +164,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
@@ -179,7 +179,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
@@ -194,7 +194,7 @@ async def ihd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        message.from_user.first_name, url=f"https://t.me/El_Godzy")
+                        message.from_user.first_name, url=f"https://t.me/WU_SD")
                 ],
             ]
         )
