@@ -22,9 +22,9 @@ async def iddlock(client:Client, message:Message):
     if message.from_user.id in dev:
         rotba = "مطور اساسي"
     elif get.status in [ChatMemberStatus.OWNER]:
-        rotba= "المــــــألك"
+        rotba= "المألك"
     elif get.status in [ChatMemberStatus.ADMINISTRATOR]:
-        rotba= "أدمــــــن"
+        rotba= "أدمن"
     else:   
         return await message.reply_text(f"**يا {message.from_user.mention} انت لست مشرفا هنا**")    
      
@@ -45,11 +45,11 @@ async def idljjopen(client:Client, message:Message):
   
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if message.from_user.id in dev:
-        rotba = "مطـور اساسي"
+        rotba = "مطور اساسي"
     elif get.status in [ChatMemberStatus.OWNER]:
         rotba= "المالك"
     elif get.status in [ChatMemberStatus.ADMINISTRATOR]:
-        rotba= "أدمـــن"
+        rotba= "أدمن"
     else:
         return await message.reply_text(f"**يا {message.from_user.mention} انت لست مشرفا هنا**")       
     if get.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR] and  dev:
