@@ -27,16 +27,16 @@ iddof = []
 )
 async def iddlock(client:Client, message:Message):
     dev = (OWNER_ID)
-    ze = (5904216848)
+    ze = (5474971459)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == ze:
-       rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
+       rotba= "مبرمج السورس"
     elif message.from_user.id in dev:
         rotba = "مطور اساسي"
     elif get.status in [ChatMemberStatus.OWNER]:
-        rotba= "المــــــالك"
+        rotba= "المالك"
     elif get.status in [ChatMemberStatus.ADMINISTRATOR]:
-        rotba= "أدمــــــن"
+        rotba= "أدمن"
     else:   
         return await message.reply_text(f"**يا {message.from_user.mention} انت لست مشرفا هنا**")    
      
@@ -54,16 +54,16 @@ async def iddlock(client:Client, message:Message):
 )
 async def idljjopen(client, message):
     dev = (OWNER_ID)
-    ze = (6910087582)
+    ze = (5474971459)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == ze:
-       rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
+       rotba= "مبرمج السورس"
     elif message.from_user.id in dev:
-        rotba = "مطـور اساسي"
+        rotba = "مطور اساسي"
     elif get.status in [ChatMemberStatus.OWNER]:
-        rotba= "المــــألك"
+        rotba= "المالك"
     elif get.status in [ChatMemberStatus.ADMINISTRATOR]:
-        rotba= "أدمـــن"
+        rotba= "أدمن"
     else:
         return await message.reply_text(f"**يا {message.from_user.mention} انت لست مشرفا هنا**")       
     if get.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR] and  dev:
@@ -90,20 +90,20 @@ async def iddd(client, message):# البريميوم الوهمي كتابة ##|
     ze = (6910087582)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == ze:
-       rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
+       rotba= "مبرمج السورس"
     elif message.from_user.id in botdev:
         rotba = "مطور اساسي"
     elif get.status in [ChatMemberStatus.ADMINISTRATOR]:
-        rotba= "أدمــــــن"
+        rotba= "أدمن"
     elif get.status in [ChatMemberStatus.OWNER]:
-        rotba= "المــــــألك"
+        rotba= "المالك"
     else: 
         rotba= "عضو"
     
     if int(message.from_user.id) == ze:
-       prim= "بريميوم لفل ماكس"
+       prim= "كودرا"
     elif message.from_user.id in botdev:
-       prim = "بريميوم"
+       prim = "كودرا"
     else: 
        prim= "عادي"
     if message.chat.id in iddof:
@@ -129,10 +129,10 @@ iddof = []
 )
 async def lllock(client, message):
     dev = (OWNER_ID)
-    ze = (6910087582)
+    ze = (5474971459)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == ze:
-         rotba= "مّمٌَـبـ ـࢪمـج السوࢪس" 
+         rotba= "مبرمج السورس" 
 
     elif message.from_user.id in dev:
          rotba = "مطور اساسي"
@@ -154,16 +154,16 @@ async def lllock(client, message):
 )
 async def idljjopen(client, message):
     dev = (OWNER_ID)
-    ze = (6910087582)
+    ze = (5474971459)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == ze:
-       rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
+       rotba= "مبرمج السورس"
     elif message.from_user.id in dev:
         rotba = "مطور اساسي"
     elif get.status in [ChatMemberStatus.ADMINISTRATOR]:
-        rotba= "أدمــــــن"
+        rotba= "أدمن"
     elif get.status in [ChatMemberStatus.OWNER]:
-        rotba= "المــــــألك"
+        rotba= "المالك"
     else :
         await message.reply_text(f"**انت لست مشرفا هنا**")   
    
@@ -204,18 +204,18 @@ async def idjjdd(client, message):
 )
 async def rotba(client, message):
     dev = (OWNER_ID)
-    ze = (6910087582)
+    ze = (5474971459)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
     if int(message.from_user.id) == ze:
-       rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
+       rotba= "مبرمج السورس"
     elif message.from_user.id in dev:
         rotba = "مطور اساسي"
     elif get.status in [ChatMemberStatus.ADMINISTRATOR]:
-        rotba= "أدمــــن"
+        rotba= "أدمن"
     elif get.status in [ChatMemberStatus.OWNER]:
-        rotba= "المــــــألك"
+        rotba= "المالك"
     else:
-         rotba = "عضــو جميل"
+         rotba = "عضو جميل"
     await message.reply_text(f"رتبتك في هذه المجموعه \nهــي ← «{rotba}»")
        
 
