@@ -12,23 +12,23 @@ from config import OWNER_ID
 @app.on_callback_query(filters.regex("zzzback"))
 async def zzzback(_, query: CallbackQuery):
    await query.edit_message_text(
-       f"""<b>» مرحبـاً بك عـزيـزي 𝄞</b>\n<b>» استخـدم الازرار بالاسفـل\n» لـ تصفـح اوامـر الميـوزك 🥁</b>""",
+       f"""<b>[ مرحبـاً بك عـزيـزي 𝄞</b>\n<b>[ استخـدم الازرار بالاسفـل\n[ لـ تصفـح اوامـر الميـوزك 🥁</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "• اوامــر التشغيــل •", callback_data="zzzll"),
+                        "‹ اوامــر التشغيــل ›", callback_data="zzzll"),
                 ],[
                     InlineKeyboardButton(
-                        "• اوامـر القنـاة •", callback_data="zzzch"),
+                        "‹ اوامـر القنـاة ›", callback_data="zzzch"),
                     InlineKeyboardButton(
-                        "• اوامـر الادمـن •", callback_data="zzzad"),
+                        "‹ اوامـر الادمـن ›", callback_data="zzzad"),
                 ],[
                     InlineKeyboardButton(
-                        "• اوامــر المطــور •", callback_data="zzzdv"),
+                        "‹ اوامــر المطــور ›", callback_data="zzzdv"),
                 ],[
                     InlineKeyboardButton(
-                        "•𓌹𝚂𝙾𝚄𝚁𝙲𝙴 𝙶𝙾𝙳𝚉𝙸𝙻𝙻𝙰𓌺•", url="https://t.me/El_Godzy"),
+                        "‹ 𝘀𝗼𝘂𝗿𝗰𝗲✘𝗰𝗼𝘂𝗱𝗿𝗮 ›", url="https://t.me/WU_SD"),
                 ],
             ]
         ),
@@ -39,23 +39,23 @@ async def zzzback(_, query: CallbackQuery):
 @app.on_callback_query(filters.regex("zzzdv") & SUDOERS)
 async def mpdtsf(_, query: CallbackQuery):
    await query.edit_message_text(
-       f"""<b>» مرحبـاً بك عـزيـزي المطـور </b>\n\n<b>» استخـدم الازرار بالاسفـل 𝄞\n» لـ تصفـح اوامـر الميـوزك 🥁</b>""",
+       f"""<b>[ مرحبـاً بك عـزيـزي المطـور </b>\n\n<b>[ استخـدم الازرار بالاسفـل 𝄞\n[ لـ تصفـح اوامـر الميـوزك 🥁</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "• التحـديث •", callback_data="zzzup"),
+                        "‹ التحـديث ›", callback_data="zzzup"),
                 ],[
                     InlineKeyboardButton(
-                        "• الـرفــع •", callback_data="zzzsu"),
+                        "‹ الـرفــع ›", callback_data="zzzsu"),
                     InlineKeyboardButton(
-                        "• الـحظــر •", callback_data="zzzbn"),
+                        "‹ الـحظــر ›", callback_data="zzzbn"),
                 ],[
                     InlineKeyboardButton(
-                        "• الاشعــارات & المسـاعــد •", callback_data="zzzas"),
+                        "‹ الاشعــارات & المسـاعــد ›", callback_data="zzzas"),
                 ],[
                     InlineKeyboardButton(
-                        "رجـوع", callback_data="zzzback"),
+                        "‹ رجـوع ›", callback_data="zzzback"),
                 ],
             ]
         ),
@@ -297,7 +297,7 @@ async def zzzas(_, query: CallbackQuery):
           [
                [
                     InlineKeyboardButton(
-                        "رجـوع", callback_data="zzzdv"),
+                        "‹ رجـوع ›", callback_data="zzzdv"),
                ],
           ]
         ),
