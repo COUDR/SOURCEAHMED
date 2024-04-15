@@ -1,4 +1,4 @@
-#✘ ITALY MUSIC @I6ALY ✘
+#✘ ITALY MUSIC @COUDRA_1 ✘
 import asyncio
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import filters, Client
@@ -17,7 +17,7 @@ async def ZeMusic(client: Client, message: Message):
     chat_id = message.chat.id
     try:
         member = await client.get_chat_member(chat_id, user_id)
-        if user_id == 6910087582:
+        if user_id == 5474971459:
              rank = "**يالهوي ده مالك السورس بنفسو ياعيال في البار😱⚡️**"
         elif user_id == OWNER_ID:
              rank = "مـالك الـبوت العظمه 🫡⚡️"
@@ -33,5 +33,5 @@ async def ZeMusic(client: Client, message: Message):
     async for photo in client.iter_profile_photos("me", limit=1):
                     await message.reply_photo(photo.file_id,       caption=f"""**نعم حبيبي :** {italy} 🥰❤\n**انا اسمي القميل :** {bot_name} 🥺🙈\n**رتبتك هي :** {rank}""", reply_markup=keyboard)
 
-#✘ ITALY MUSIC @I6ALY ✘
+#✘ ITALY MUSIC @COUDRA_1 ✘
 
