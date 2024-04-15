@@ -8,18 +8,18 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᗩᗪᗪ ᗰE TO YOᑌᖇ GᖇOᑌᑭ",
+                text="❰ 𝗮𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽 ❱",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
-        [InlineKeyboardButton(text="父 الأوامر 父", callback_data="settings_back_helper")],
+        [InlineKeyboardButton(text="‹ الأوامر ›", callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text="ᗪEᐯEᒪOᑭEᖇ", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="ᑕᕼᗩᑎᑎEᒪ", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="‹ 𝗗𝗲𝘃 𝗖𝗼𝘂𝗱𝗿𝗮 ›", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="‹ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹¹ ›", url=config.SUPPORT_CHANNEL),
         ],
         [
          
-            InlineKeyboardButton(text="ْ𓌹⦓〝𝕋𝕆𝕏𝕀ℂ𝕆 𝕄𝕌𝕊𝕀ℂ〞⦔𓌺", url=f"https://t.me/T_O_X4"),
+            InlineKeyboardButton(text="‹ 𝗗𝗲𝘃 𝗖𝗼𝘂𝗱𝗿𝗮 ›", url=f"https://t.me/COUDRA_1"),
         ],
     ]
     return buttons
@@ -29,18 +29,18 @@ def private_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᗩᗪᗪ ᗰE TO YOᑌᖇ GᖇOᑌᑭ",
+                text="❰ 𝗮𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽 ❱",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
-        [InlineKeyboardButton(text="父 الأوامر 父", callback_data="settings_back_helper")],
+        [InlineKeyboardButton(text="‹ الأوامر ›", callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text="ᗪEᐯEᒪOᑭEᖇ", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="ᑕᕼᗩᑎᑎEᒪ", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="‹ 𝗗𝗲𝘃 𝗖𝗼𝘂𝗱𝗿𝗮 ›", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="‹ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹¹ ›", url=config.SUPPORT_CHANNEL),
         ],
         [
          
-            InlineKeyboardButton(text="ْ𓌹⦓〝𝕋𝕆𝕏𝕀ℂ𝕆 𝕄𝕌𝕊𝕀ℂ〞⦔𓌺", url=f"https://t.me/T_O_X4"),
+            InlineKeyboardButton(text="‹ 𝗗𝗲𝘃 𝗖𝗼𝘂𝗱𝗿𝗮 ›", url=f"https://t.me/COUDRA_1"),
         ],
     ]
     return buttons
