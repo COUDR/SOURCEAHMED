@@ -68,7 +68,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="ᯓ 𝚂𝙺𝙸𝙿 ‌", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="ᯓ 𝚂𝚃𝙾𝙿 ", callback_data=f"ADMIN Stop|{chat_id}"),
         ],[
-            InlineKeyboardButton(text="ْ𓌹⦓〝𝕋𝕆𝕏𝕀ℂ𝕆 𝕄𝕌𝕊𝕀ℂ〞⦔𓌺", url=f"https://t.me/@T_O_X4"),
+            InlineKeyboardButton(text="◁ َِ𝗖َِ𝗼َِ𝘂َِ𝗱َِ𝗿َِ𝗮 َِ▷", url=f"https://t.me/COUDRA_1"),
         ],[
             InlineKeyboardButton(text="𖣂 اضف البوت الي مجموعتك او قناتك 𖣂", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
