@@ -61,14 +61,14 @@ def stream_markup_timer(_, chat_id, played, dur):
                 callback_data="GetTimer",
             )
         ],[
-            InlineKeyboardButton(text="ᯓ 𝚁𝙴𝚂𝚞𝙼𝙴 ", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ 𝙿𝙰𝚞𝚂𝙴 ", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ 𝚁𝙴𝙿𝙻𝙰𝚈 ", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="𝗿𝗲𝘀𝘂𝗺𝗲", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="𝗽𝗮𝘂𝘀𝗲", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="𝗿𝗲𝗽𝗹𝗮𝘆", callback_data=f"ADMIN Replay|{chat_id}"),
         ],[
-            InlineKeyboardButton(text="ᯓ 𝚂𝙺𝙸𝙿 ‌", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ 𝚂𝚃𝙾𝙿 ", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="𝘀𝗸𝗶𝗽", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="𝘀𝘁𝗼𝗽", callback_data=f"ADMIN Stop|{chat_id}"),
         ],[
-            InlineKeyboardButton(text="◁ َِ𝗖َِ𝗼َِ𝘂َِ𝗱َِ𝗿َِ𝗮 َِ▷", url=f"https://t.me/COUDRA_1"),
+            InlineKeyboardButton(text="⦇ َِ𝘾َِ𝙊َِ𝙐َِ𝘿َِ𝙍َِ𝘼 ⦈", url=f"https://t.me/COUDRA_1"),
         ],[
             InlineKeyboardButton(text="𖣂 اضف البوت الي مجموعتك او قناتك 𖣂", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
@@ -78,14 +78,14 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="ᯓ 𝚁𝙴𝚂𝚞𝙼𝙴  ", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ 𝙿𝙰𝚞𝚂𝙴 ", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ 𝚁𝙴𝙿𝙻𝙰𝚈 ", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="𝗿𝗲𝘀𝘂𝗺𝗲", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="𝗽𝗮𝘂𝘀𝗲", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="𝗿𝗲𝗽𝗹𝗮𝘆", callback_data=f"ADMIN Replay|{chat_id}"),
         ],[
-            InlineKeyboardButton(text="ᯓ 𝚂𝙺𝙸𝙿 ‌", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="ᯓ 𝚂𝚃𝙾𝙿 ", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="𝘀𝗸𝗶𝗽", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="𝘀𝘁𝗼𝗽", callback_data=f"ADMIN Stop|{chat_id}"),
         ],[
-            InlineKeyboardButton(text="𓌹⦓〝𝕋𝕆𝕏𝕀ℂ𝕆 𝕄𝕌𝕊𝕀ℂ〞⦔𓌺", url=f"https://t.me/@T_O_X4"),
+            InlineKeyboardButton(text="⦇ َِ𝘾َِ𝙊َِ𝙐َِ𝘿َِ𝙍َِ𝘼 ⦈", url=f"https://t.me/COUDRA_1"),
         ],[
             InlineKeyboardButton(text="𖣂 اضف البوت الي مجموعتك او قناتك 𖣂", url=f"https://t.me/{app.username}?startgroup=true")],
     ]
