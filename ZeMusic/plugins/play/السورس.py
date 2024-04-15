@@ -18,7 +18,7 @@ from random import  choice, randint
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/d313f089ede761bbad70a.jpg",
+        photo=f"https://telegra.ph/file/09b8ec504336aada15ab7.png",
         caption=f"""❰ 𝘁𝗵𝗲 𝗯𝗲𝘀𝘁 𝘀𝗼𝘂𝗿𝗰𝗲 𝗼𝗻 𝘁𝗲𝗹𝗲𝗴𝗿𝗮𝗺 ❱""",
         reply_markup=InlineKeyboardMarkup(
         [
@@ -43,7 +43,7 @@ async def huhh(client: Client, message: Message):
 )
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/d313f089ede761bbad70a.jpg",
+        photo=f"https://telegra.ph/file/09b8ec504336aada15ab7.png",
         caption=f"""❰ 𝘁𝗵𝗲 𝗯𝗲𝘀𝘁 𝘀𝗼𝘂𝗿𝗰𝗲 𝗼𝗻 𝘁𝗲𝗹𝗲𝗴𝗿𝗮𝗺 ❱""",
         reply_markup=InlineKeyboardMarkup(
         [
