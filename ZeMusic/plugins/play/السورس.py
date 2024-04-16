@@ -19,17 +19,17 @@ from random import  choice, randint
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/09b8ec504336aada15ab7.png",
-        caption=f"""❰ 𝘁𝗵𝗲 𝗯𝗲𝘀𝘁 𝘀𝗼𝘂𝗿𝗰𝗲 𝗼𝗻 𝘁𝗲𝗹𝗲𝗴𝗿𝗮𝗺 ❱""",
+        caption=f"""✧ 𝗧𝗵𝗲 𝗕𝗲𝗦𝘁 𝗦𝗼𝗨𝗥𝗰𝗲 𝗢𝗻 𝗧𝗲𝗟𝗲𝗚𝗿𝗔𝗺 ✧""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
                     InlineKeyboardButton(
-                        "‹ 𝗗𝗲𝘃 𝗖𝗼𝘂𝗱𝗿𝗮 ›", url=f"https://t.me/COUDRA_1"),
+                        "✧ 𝗗𝗲𝘃 𝗦𝗼𝘂𝗿𝗰𝗲 ✧", url=f"https://t.me/COUDRA_1"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹¹ ›", url=f"https://t.me/WU_SD"), 
+                        "✧ 𝗦𝗼𝗨𝗥𝗖𝗲 ✧", url=f"https://t.me/WU_SD"), 
                     InlineKeyboardButton(
-                        "‹ 𝗚𝗿𝗼𝘂𝗽² ›", url=f"https://t.me/HB_SW"),
+                        "✧ 𝗚𝗿𝗼𝘂𝗽 ✧", url=f"https://t.me/HB_SW"),
                 ],[
                     InlineKeyboardButton(
                         "‹ اضف البوت لمجموعتك ›", url=f"https://t.me/Sgvshbot?startgroup=true"),
@@ -44,17 +44,17 @@ async def huhh(client: Client, message: Message):
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/09b8ec504336aada15ab7.png",
-        caption=f"""❰ 𝘁𝗵𝗲 𝗯𝗲𝘀𝘁 𝘀𝗼𝘂𝗿𝗰𝗲 𝗼𝗻 𝘁𝗲𝗹𝗲𝗴𝗿𝗮𝗺 ❱""",
+        caption=f"""✧ 𝗧𝗵𝗲 𝗕𝗲𝗦𝘁 𝗦𝗼𝗨𝗥𝗰𝗲 𝗢𝗻 𝗧𝗲𝗟𝗲𝗚𝗿𝗔𝗺 ✧""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
                     InlineKeyboardButton(
-                        "‹ 𝗗𝗲𝘃 𝗖𝗼𝘂𝗱𝗿𝗮 ›", url=f"https://t.me/COUDRA_1"),
+                        "✧ 𝗗𝗲𝘃 𝗦𝗼𝘂𝗿𝗰𝗲 ✧", url=f"https://t.me/COUDRA_1"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹¹ ›", url=f"https://t.me/WU_SD"), 
+                        "✧ 𝗦𝗼𝗨𝗥𝗖𝗲 ✧", url=f"https://t.me/WU_SD"), 
                     InlineKeyboardButton(
-                        "‹ 𝗚𝗿𝗼𝘂𝗽² ›", url=f"https://t.me/HB_SW"),
+                        "✧ 𝗚𝗿𝗼𝘂𝗽 ✧", url=f"https://t.me/HB_SW"),
                 ],[
                     InlineKeyboardButton(
                         "‹ اضف البوت لمجموعتك ›", url=f"https://t.me/Sgvshbot?startgroup=true"),
