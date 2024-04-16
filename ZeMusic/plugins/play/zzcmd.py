@@ -28,7 +28,7 @@ async def zzzback(_, query: CallbackQuery):
                         "‹ اوامــر المطــور ›", callback_data="zzzdv"),
                 ],[
                     InlineKeyboardButton(
-                        "‹ 𝘀𝗼𝘂𝗿𝗰𝗲✘𝗰𝗼𝘂𝗱𝗿𝗮 ›", url="https://t.me/WU_SD"),
+                        "✧ 𝗦𝗼𝗨𝗥𝗖𝗲 ✧", url="https://t.me/WU_SD"),
                 ],
             ]
         ),
