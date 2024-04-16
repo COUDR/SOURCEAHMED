@@ -16,7 +16,7 @@ async def zdatsr(client: Client, message: Message):
     name = usr.first_name
     usrnam = usr.username
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/d313f089ede761bbad70a.jpg",
+        photo=f"https://telegra.ph/file/09b8ec504336aada15ab7.png",
         caption=f"""<b>[ مرحبـاً بك عـزيـزي </b> {message.from_user.mention} .\n\n<b>[ استخـدم الازرار بالاسفـل 𝄞\n[ لـ تصفـح اوامـر الميـوزك 🥁</b>""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -42,7 +42,7 @@ async def zdatsr(client: Client, message: Message):
     )
 
 
-@app.on_message(command(["مطور", "المطور"]) & filters.group)
+@app.on_message(command(["مطور","المطور"]) & filters.group)
 async def zilzal(client: Client, message: Message):
     usr = await client.get_users(OWNER_ID)
     name = usr.first_name
