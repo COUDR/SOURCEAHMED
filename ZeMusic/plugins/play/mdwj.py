@@ -11,7 +11,7 @@ from ZeMusic import app
 from asyncio import gather
 
 
-@app.on_message(filters.command(["تلغراف","تلغراف ميديا","ميديا","تلجراف","تليجراف"]) & filters.group)
+@app.on_message(filters.command(["تلغراف", "تلغراف ميديا", "ميديا", "تلجراف", "تليجراف"]) & filters.group)
 async def telegraph(client: Client, message: Message):
     replied = message.reply_to_message
     if not replied:
@@ -28,7 +28,7 @@ async def telegraph(client: Client, message: Message):
         or (
             replied.document
             and replied.document.file_name.endswith(
-                (".jpg",".jpeg",".png",".gif",".mp4"),
+                (".jpg", ".jpeg", ".png", ".gif", ".mp4"),
             )
             and replied.document.file_size <= 5242880
         )
