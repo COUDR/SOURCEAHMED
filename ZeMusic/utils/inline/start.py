@@ -8,18 +8,18 @@ def start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❰ 𝗮𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽 ❱",
+                text="✧ 𝗮𝗗𝗗 𝗠𝗲 𝗧𝗼 َ𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀 ✧",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
-        [InlineKeyboardButton(text="‹ الأوامر ›", callback_data="settings_back_helper")],
+        [InlineKeyboardButton(text="✧ 𝗛𝗮𝗜𝗽 ✧", callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text="‹ 𝗗𝗲𝘃 𝗖𝗼𝘂𝗱𝗿𝗮 ›", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="‹ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹¹ ›", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="✧ 𝗕𝗼𝗧 𝗢𝗪𝗡𝗘𝗥 ✧", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="✧ 𝗦𝗼𝗨𝗥𝗖𝗲 ✧", url=config.SUPPORT_CHANNEL),
         ],
         [
          
-            InlineKeyboardButton(text="‹ 𝗗𝗲𝘃 𝗖𝗼𝘂𝗱𝗿𝗮 ›", url=f"https://t.me/COUDRA_1"),
+            InlineKeyboardButton(text="✧ 𝗗𝗲𝘃 𝗦𝗼𝘂𝗿𝗰𝗲 ✧", url=f"https://t.me/COUDRA_1"),
         ],
     ]
     return buttons
@@ -29,18 +29,18 @@ def private_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❰ 𝗮𝗱𝗱 𝗺𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽 ❱",
+                text="✧ 𝗮𝗗𝗗 𝗠𝗲 𝗧𝗼 َ𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀 ✧",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
-        [InlineKeyboardButton(text="‹ الأوامر ›", callback_data="settings_back_helper")],
+        [InlineKeyboardButton(text="✧ 𝗛𝗮𝗜𝗽 ✧", callback_data="settings_back_helper")],
         [
-            InlineKeyboardButton(text="‹ 𝗗𝗲𝘃 𝗖𝗼𝘂𝗱𝗿𝗮 ›", user_id=config.OWNER_ID),
-            InlineKeyboardButton(text="‹ 𝗖𝗵𝗮𝗻𝗻𝗲𝗹¹ ›", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="✧ 𝗕𝗼𝗧 𝗢𝗪𝗡𝗘𝗥 ✧", user_id=config.OWNER_ID),
+            InlineKeyboardButton(text="✧ 𝗦𝗼𝗨𝗥𝗖𝗲 ✧", url=config.SUPPORT_CHANNEL),
         ],
         [
          
-            InlineKeyboardButton(text="‹ 𝗗𝗲𝘃 𝗖𝗼𝘂𝗱𝗿𝗮 ›", url=f"https://t.me/COUDRA_1"),
+            InlineKeyboardButton(text="✧ 𝗗𝗲𝘃 𝗦𝗼𝘂𝗿𝗰𝗲 ✧", url=f"https://t.me/COUDRA_1"),
         ],
     ]
     return buttons
