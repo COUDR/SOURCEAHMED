@@ -8,7 +8,7 @@ import aiofiles
 import aiohttp
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 from youtubesearchpython.__future__ import VideosSearch
-import numpy as np
+
 
 from config import YOUTUBE_IMG_URL
 
