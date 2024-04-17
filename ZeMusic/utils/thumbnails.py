@@ -8,7 +8,7 @@ import aiofiles
 import aiohttp
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 from youtubesearchpython.__future__ import VideosSearch
-from ZeMusic import app
+import numpy as np
 
 
 
