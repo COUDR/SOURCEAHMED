@@ -20,18 +20,18 @@ from random import  choice, randint
 async def huhh(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/d313f089ede761bbad70a.jpg",
-        caption=f"""◉ 𝙽𝙰𝙼𝙴 : ❪𝗖َِ𝗢َِ𝗨َِ𝗗َِ𝗥َِ𝗔 - ڪۅٛدࢪا❫
-◉ 𝚄𝚂𝙴𝚁 : ❪ @COUDRA_1 ❫
-◉ 𝙸𝙳      : ❪ `5474971459` ❫
-◉ 𝙱𝙸𝙾    : ❪ for me (@WU_SD)  ❫""",
+        caption=f"""
+        ✧ ɴᴀᴍᴇ : 𝗖َِ𝗢َِ𝗨َِ𝗗َِ𝗥َِ𝗔 
+✧ ᴜsᴇʀ :  @COUDRA_1 
+✧ ɪᴅ   : 5474971459""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "‹ 𝗗𝗲𝘃 𝗖𝗼𝘂𝗱𝗿𝗮 ›", url=f"https://t.me/COUDRA_1"), 
+                        "مـطـور الـبـوت", url=f"https://t.me/COUDRA_1"), 
                  ],[
                    InlineKeyboardButton(
-                        "‹ 𝘀𝗼𝘂𝗿𝗰𝗲✘𝗰𝗼𝘂𝗱𝗿𝗮 ›", url=f"https://t.me/WU_SD"),
+                        "سـورس", url=f"https://t.me/WU_SD"),
                 ],
 
             ]
