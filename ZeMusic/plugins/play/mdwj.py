@@ -11,6 +11,19 @@ from ZeMusic import app
 from asyncio import gather
 
 
+import asyncio
+import os
+import time
+import requests
+import aiohttp
+from pyrogram import filters
+from pyrogram import Client
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
+from FallenMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from FallenMusic import app
+from asyncio import gather
+
+
 @app.on_message(filters.command(["تلغراف", "تلغراف ميديا", "ميديا", "تلجراف", "تليجراف"]) & filters.group)
 async def telegraph(client: Client, message: Message):
     replied = message.reply_to_message
@@ -58,7 +71,6 @@ async def telegraph(client: Client, message: Message):
     )
     finally:
         os.remove(download_location)
-
 
 
 
