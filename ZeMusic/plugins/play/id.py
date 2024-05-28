@@ -78,7 +78,7 @@ async def iddd(client, message):
     usr = await client.get_chat(message.from_user.id)
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
-    await message.reply_photo(photo,       caption=f"""الاسم : {message.from_user.mention}\nاليوزر :  @{message.from_user.username}\nالايدي :`{message.from_user.id}`\nالبايوᚐ: {usr.bio}\nجروبᚐ: {message.chat.title}\nايدي الجروب: `{message.chat.id}`**""", 
+    await message.reply_photo(photo,       caption=f"""✧ ɴᴀᴍᴇ : {message.from_user.mention}\n✧ ᴜsᴇʀ :  @{message.from_user.username}\n✧ ɪᴅ :{message.from_user.id}\n✧ ʙᴀʏᴜ : {usr.bio}\n✧ ɢʀᴏᴜᴘ : {message.chat.title}\n✧ ɪᴅ ɢʀᴏᴜᴘ : {message.chat.id}""", 
     reply_markup=InlineKeyboardMarkup(
             [
                 [
