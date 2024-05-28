@@ -42,15 +42,13 @@ async def vgdg(client: Client, message: Message):
         
 
 array = []
-@app.on_message(command(["@all", "تاك","تاك للكل"]) & ~filters.private)
+@app.on_message(filters.command(["@all", "تاك","all"], ""), group=1073)
 async def nummmm(client: app, message):
-  if message.chat.id in array:
-     return await message.reply_text("**التاك قيد التشغيل حالياً ،**")
   chek = await client.get_chat_member(message.chat.id, message.from_user.id)
-  if not chek.status in ["administrator", "creator"]:
-    await message.reply("**يجب انت تكون مشرف لاستخدام الامر 🖱️**")
+  if not chek.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
+    await message.reply("♪ عذرا عزيزي هذا الامر للادمن الجروب فقط\n༄")
     return
-  await message.reply_text("**جاري بدأ المنشن ، لايقاف الامر اضغط **\n /cancel او اكتب بس منشن")
+  await message.reply_text(" جاري بدأ المنشن ، لايقاف الامر اضغط /cancel او اكتب بس منشن \n༄")
   i = 0
   txt = ""
   zz = message.text
@@ -59,17 +57,17 @@ async def nummmm(client: app, message):
           photo = await client.download_media(photo_id)
           zz = message.caption
   try:
-   zz = zz.replace("@all","").replace("تاك","").replace("نادي الكل","")
+   zz = zz.replace("@all","").replace("تاك","").replace("all","")
   except:
     pass
   array.append(message.chat.id)
-  async for x in client.iter_chat_members(message.chat.id):
+  async for x in client.get_chat_members(message.chat.id):
       if message.chat.id not in array:
         return
       if not x.user.is_deleted:
        i += 1
-       txt += f" {x.user.mention} ،"
-       if i == 5:
+       txt += f" {x.user.mention} ›"
+       if i == 20:
         try:
               if not message.photo:
                     await client.send_message(message.chat.id, f"{zz}\n{txt}")
@@ -88,18 +86,18 @@ async def nummmm(client: app, message):
   array.remove(message.chat.id)
 
 
-@app.on_message(command(["بس المنشن", "/cancel","بس منشن"]))
+@app.on_message(filters.command(["/cancel", "ايقاف التاك","بس منشن"], ""), group=10)
 async def stop(client, message):
   chek = await client.get_chat_member(message.chat.id, message.from_user.id)
-  if not chek.status in ["administrator", "creator"]:
-    await message.reply("**يجب انت تكون مشرف لاستخدام الامر 🖱️")
+  if not chek.status in [ChatMemberStatus.OWNER, ChatMemberStatus.ADMINISTRATOR]:
+    await message.reply(" عذرا عزيزي هذا الامر للادمن الجروب فقط\n༄ ")
     return
   if message.chat.id not in array:
-     await message.reply("**المنشن متوقف بالفعل**")
+     await message.reply("حجي انت مخبول المنشن واقف\n༄")
      return 
   if message.chat.id in array:
     array.remove(message.chat.id)
-    await message.reply("**تم ايقاف المنشن بنجاح✅**")
+    await message.reply("حجي تم ايقاف منشن لخاطر عيونك\n༄")
     return
 
 
